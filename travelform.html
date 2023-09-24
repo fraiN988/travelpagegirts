@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel form</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="/homep.html"
+        ><img
+          src="/catlogo.png"
+          alt="Cat with a suitcase"
+          width="300"
+          height="200"
+      /></a>
+      <nav id="navmain">
+        <a href="/pblog.html">Personal Blog</a>
+        <a href="/travelform.html">Travel form</a>
+        <a href="/login.html" style="float: right">Login</a>
+      </nav>
+      <h1 style="text-align: center">Travel Cat Tours</h1>
+    </header>
+    <form action="pblog.html">
+      <div>
+        <label for="fname">First name: </label>
+        <input type="text" name="fname" id="fname" required />
+      </div>
+      <div>
+        <label for="fname">First name: </label>
+        <input type="text" name="fname" id="fname" required />
+      </div>
+      <div>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <div>
+        <label for="phone">Phone number: </label>
+        <input type="tel" name="phone" id="phone" required />
+      </div>
+      <fieldset>
+        <label for="loc">Select destination:</label>
+        <select name="loc" id="loc" required>
+          <option value="fr">Paris, France</option>
+          <option value="uk">London, UK</option>
+          <option value="ny">New york, USA</option>
+        </select>
+        <div>
+          <label for="loc">Number of people:</label>
+          <select name="loc" id="loc" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+      </fieldset>
+      <div>
+        <label for="date">Select a date for flight: </label>
+        <input type="date" id="date" name="date" required />
+      </div>
+      <fieldset>
+        <legend>Select one or more:</legend>
+        <div>
+          <label for="pets">Pets: </label>
+          <input type="checkbox" name="pets" id="pets" />
+        </div>
+        <div>
+          <label for="lugg">Luggage: </label>
+          <input type="checkbox" name="lugg" id="lugg" />
+        </div>
+        <div>
+          <label for="hand">Handicapped: </label>
+          <input type="checkbox" name="hand" id="hand" />
+        </div>
+        <div>
+          <label for="diet">Dietary restrictions: </label>
+          <input type="checkbox" name="diet" id="diet" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Select class:</legend>
+        <div>
+          <label for="class">Economy: </label>
+          <input type="radio" name="class" id="eco" />
+        </div>
+        <div>
+          <label for="class">Economy+: </label>
+          <input type="radio" name="class" id="ecoo" />
+        </div>
+        <div>
+          <label for="class">2nd Class: </label>
+          <input type="radio" name="class" id="2nd" />
+        </div>
+        <div>
+          <label for="clas">1st Class: </label>
+          <input type="radio" name="class" id="1st" />
+        </div>
+      </fieldset>
+      <div>
+        <label for="comments">Additional Info: </label>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+      </div>
+      <button>Submit</button>
+    </form>
+  </body>
+  <footer>
+    <nav id="navbottom">
+      <a href="/pblog.html">Personal Blog</a>
+      <a href="/travelform.html">Travel form</a>
+      <a href="/login.html" style="float: right">Login</a>
+    </nav>
+    <p>Copyright&copy;</p>
+  </footer>
+</html>
